@@ -1,0 +1,25 @@
+{
+  "name": "components",
+  "version": "1.0.0",
+  "description": "build components in JavaScript with Angular, React, Aurelia, Angular2...",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/davyengone/components.git"
+  },
+  "keywords": [
+    "components",
+    "angular",
+    "react",
+    "aurelia"
+  ],
+  "author": "davyengone",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/davyengone/components/issues"
+  },
+  "homepage": "https://github.com/davyengone/components#readme"
+}
