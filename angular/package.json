@@ -4,7 +4,7 @@
   "description": "build components in JavaScript with Angular, React, Aurelia, Angular2...",
   "main": "index.js",
   "scripts": {
-    "test": "mocha -w"
+    "test": "karma start"
   },
   "repository": {
     "type": "git",
@@ -21,5 +21,19 @@
   "bugs": {
     "url": "https://github.com/davyengone/components/issues"
   },
-  "homepage": "https://github.com/davyengone/components#readme"
+  "homepage": "https://github.com/davyengone/components#readme",
+  "devDependencies": {
+    "angular-mocks": "^1.4.7",
+    "chai": "^3.3.0",
+    "karma": "^0.13.10",
+    "karma-chai": "^0.1.0",
+    "karma-chrome-launcher": "^0.2.0",
+    "karma-mocha": "^0.2.0",
+    "karma-phantomjs-launcher": "^0.2.1",
+    "mocha": "^2.3.3",
+    "phantomjs": "^1.9.18"
+  },
+  "dependencies": {
+    "angular": "^1.4.7"
+  }
 }
